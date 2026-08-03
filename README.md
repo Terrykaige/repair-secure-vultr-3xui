@@ -127,7 +127,7 @@ cp -R repair-secure-vultr-3xui/repair-secure-vultr-3xui ~/.codex/skills/
 Skill 自带启动器生成脚本：
 
 ```bash
-scripts/make_panel_tunnel_command.sh \
+bash scripts/make_panel_tunnel_command.sh \
   SERVER_HOST REMOTE_PANEL_PORT LOCAL_PANEL_PORT PANEL_SCHEME \
   PANEL_BASE_PATH ABSOLUTE_PRIVATE_KEY_PATH OUTPUT.command
 ```
@@ -135,7 +135,7 @@ scripts/make_panel_tunnel_command.sh \
 示例：
 
 ```bash
-scripts/make_panel_tunnel_command.sh \
+bash scripts/make_panel_tunnel_command.sh \
   example.com 28491 38491 https /panel/ \
   /Users/yourname/.ssh/vultr-panel-ed25519 \
   /Users/yourname/Desktop/打开3x-ui面板.command
