@@ -47,7 +47,7 @@ Follow the runbook gates in this order, skipping root recovery when working shel
 Run:
 
 ```bash
-scripts/make_panel_tunnel_command.sh \
+bash scripts/make_panel_tunnel_command.sh \
   SERVER_HOST REMOTE_PANEL_PORT LOCAL_PANEL_PORT PANEL_SCHEME \
   PANEL_BASE_PATH ABSOLUTE_PRIVATE_KEY_PATH OUTPUT.command
 ```
